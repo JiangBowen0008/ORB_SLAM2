@@ -17,7 +17,7 @@ make -j
 
 echo "Configuring and building Thirdparty/Pangolin ..."
 cd ../../Pangolin-0.6
-sh ./install_prerequisites.sh --dry-run recommended
+sh ./install_prerequisites.sh -m apt all
 mkdir build
 cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
