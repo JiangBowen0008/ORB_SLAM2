@@ -14,8 +14,8 @@ cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
 make -j
 
-echo "Configuring and building Thirdparty/glew ..."
-cd ../../glew
+echo "Configuring and building Thirdparty/glew-2.1.0 ..."
+cd ../../glew-2.1.0
 mkdir build
 cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
