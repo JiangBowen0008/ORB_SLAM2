@@ -14,6 +14,12 @@ cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
 make -j
 
+echo "Configuring and building Thirdparty/glew ..."
+cd ../../glew
+mkdir build
+cd build
+cmake .. -DCMAKE_BUILD_TYPE=Release
+make install -j
 
 echo "Configuring and building Thirdparty/Pangolin ..."
 cd ../../Pangolin-0.6
