@@ -17,7 +17,8 @@ make -j
 echo "Configuring and building Thirdparty/glew-2.1.0 ..."
 cd ../../glew-2.1.0/build
 cmake ./cmake -DCMAKE_BUILD_TYPE=Release
-make install -j
+make -j
+make install
 
 echo "Configuring and building Thirdparty/Pangolin ..."
 cd ../../Pangolin-0.6
