@@ -1,5 +1,6 @@
 echo "Building ROS nodes"
 
+pip install rospkg
 cd Examples/ROS/ORB_SLAM2
 mkdir build
 cd build
